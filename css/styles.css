@@ -1,0 +1,208 @@
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #212121;
+  --secondary-color: #757575;
+  --light-color: #ffffff;
+  --hover-color: #2196f3;
+  --button-color: #f5f4fa;
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font), var(--secondary-font);
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.03px;
+  color: var(--accent-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+/* *HEADER SECTION* */
+.header-box {
+  padding: 24px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 93px;
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: var(--hover-color);
+}
+
+.header-logo {
+  color: #000000;
+  font-family: var(--secondary-font);
+}
+
+.header-navigation {
+  margin-right: 331px;
+}
+
+.header-list {
+  display: flex;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-pages {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02px;
+}
+
+.header-mail {
+  margin-right: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02px;
+  color: var(--secondary-color);
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02px;
+  color: var(--secondary-color);
+}
+
+.header-pages:hover,
+:focus,
+.header-mail:hover,
+:focus,
+.header-tel:hover,
+:focus {
+  color: var(--hover-color);
+}
+
+/* !INDEX PAGE! */
+/* *HERO SECTION* */
+.hero-section {
+}
+
+.hero-photo {
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--light-color);
+}
+
+.hero-button {
+  background: var(--hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-button-text {
+  font-weight: bold;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--light-color);
+}
+
+/* *BENEFITS SECTION* */
+.benefits-section {
+}
+
+/* *JOB SECTION* */
+.job-section {
+}
+
+/* *COMMAND SECTION* */
+.command-section {
+}
+
+/* !PORTFOLIO PAGE! */
+/* *FILTER SECTION* */
+.filter-list {
+  display: flex;
+}
+
+.filter-button {
+  background: var(--button-color);
+  border-radius: 4px;
+}
+
+.filter-button:hover,
+:focus {
+  background: #2196f3;
+}
+
+.filter-button-text {
+  font-weight: 500;
+  line-height: 1.62px;
+  text-align: center;
+}
+
+.filter-button-text:hover,
+:focus {
+  color: var(--light-color);
+}
+
+.buttons-styles {
+  background: var(--button-color);
+  border-radius: 4px;
+}
+
+/* font-weight: normal;
+font-size: 16;
+letter-spacing: 0.03; */
+/* *PORTFOLIO SECTION* */
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+  color: var(--accent-color);
+}
+
+.portfolio-text {
+  line-height: 1.88px;
+  color: var(--secondary-color);
+}
+
+/* *FOOTER SECTION* */
+.footer-section {
+}
+
+.footer-logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19px;
+  color: var(--light-color);
+}
+
+.footer-adress {
+}
