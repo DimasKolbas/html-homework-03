@@ -323,18 +323,13 @@ body {
 .portfolio-section {
   width: 1200px;
   padding: 0 15px;
-  margin: 0 auto 94px;
-}
-
-.portfolio-section-content {
-}
-
-.portfolio-section-caption {
+  margin: 0 auto 64px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  text-align: left;
 }
 
 .portfolio-list-item {
@@ -352,6 +347,7 @@ body {
 }
 
 .portfolio-list-title {
+  margin: 20px 24px 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2em;
@@ -360,6 +356,7 @@ body {
 }
 
 .portfolio-list-text {
+  margin: 0 24px 20px;
   line-height: 1.88em;
   color: var(--secondary-color);
 }
